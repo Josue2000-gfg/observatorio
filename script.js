@@ -46,7 +46,7 @@ var myChart = new Chart(ctx, {
 });
 
 // Obtener elementos del DOM
-var infoDiv = document.querySelector('.info');
+var infoDiv = document.querySelector('.home');
 var cardDiv = document.querySelector('.card');
 var inicioBtn = document.querySelector('.header .btn:nth-child(1)');
 var estadisticasBtn = document.querySelector('.header .btn:nth-child(2)');
