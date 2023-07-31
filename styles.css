@@ -1,18 +1,26 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 .header {
     background-color: #2f2f30;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .header h3 {
     color: white;
     margin: 0;
 }
-.dropdown-menu {
-    min-width: 100px;
+.header button{
+    color: #1f1f1f;
 }
-.btn-default  {
-    color: rgb(112, 112, 112);
+.header button:hover{
+    color: #c7c5c5;
 }
-
-.btn-group{
-    color: rgb(218, 218, 218);
+.body{
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 75px;
 }
