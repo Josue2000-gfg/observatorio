@@ -15,15 +15,31 @@
                     <h3>Observatorio</h3>
                 </div>
                 <div class="col-sm-6 text-right">
-                    <button type="button" class="btn btn-default">Opción 1</button>
-                    <button type="button" class="btn btn-default">Opción 2</button>
-                    <button type="button" class="btn btn-default">Opción 3</button>
+                    <button type="button" class="btn btn-default"><i class="bi bi-house"></i> Inicio</button>
+                    <button type="button" class="btn btn-default"><i class="bi bi-graph-up"></i> Estadísticas</button>
+                    <button type="button" class="btn btn-default"><i class="bi bi-info-circle"></i> Nosotros</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="body">
-        <canvas id="myChart" width="400" height="400"></canvas>
+        <div class="info">
+            <h3>¿Qué es un Observatorio de Salud?</h3>
+            <p>Un observatorio de salud es una entidad que se dedica a generar evidencia para informar la toma
+                 de decisiones y guiar la formulación de políticas en salud del país. Su principal objetivo 
+                 es generar, analizar, reunir, organizar y comunicar información relativa a la salud pública 
+                 para promover y apoyar acciones que mejoren la salud y reduzcan las desigualdades en salud. 
+                 Además, crea redes y puntos de encuentro que dan voz a la Sanidad: profesionales, pacientes, 
+                 administración sanitaria y otros agentes del sector. En resumen, un observatorio de salud es 
+                 una herramienta fundamental para mejorar la salud pública y reducir las desigualdades en
+                  salud.</p>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Gráfico de población</h5>
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+        </div>
         <script src="script.js"></script>
     </div>
 

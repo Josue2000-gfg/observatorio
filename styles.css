@@ -13,14 +13,14 @@
     margin: 0;
 }
 .header button{
-    color: #1f1f1f;
+    color:azure;
 }
 .header button:hover{
-    color: #c7c5c5;
+    background-color: rgb(241, 241, 241);
 }
 .body{
-    background-color: grey;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 75px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 90px;
 }
+
