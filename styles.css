@@ -1,22 +1,25 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 .header {
-    background-color: #2f2f30;
+    background-color: #ffffff;
     padding: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
+    box-shadow: #999999a9 0px 5px 5px;
 }
 .header h3 {
-    color: white;
+    color: rgb(101, 224, 255);
     margin: 0;
+    margin-left: -40px;
 }
 .header button{
-    color:azure;
+    color:rgb(168, 168, 168);
 }
 .header button:hover{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(101, 224, 255);
+    color: #ffffff;
 }
 .body{
     margin-left: 40px;
@@ -24,3 +27,6 @@
     margin-top: 90px;
 }
 
+.home p{
+    text-align: justify;
+}

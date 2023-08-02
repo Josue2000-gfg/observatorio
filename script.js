@@ -1,7 +1,7 @@
 // Datos del backend
 var data = {
     "0-18 años": {
-        "Hombre": 100,
+        "Hombre": 90,
         "Mujer": 120
     },
     "18-60 años": {
