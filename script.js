@@ -1,53 +1,6 @@
-// Datos del backend
-var data = {
-    "0-18 años": {
-        "Hombre": 90,
-        "Mujer": 120
-    },
-    "18-60 años": {
-        "Hombre": 200,
-        "Mujer": 180
-    },
-    "Mayores de 60 años": {
-        "Hombre": 80,
-        "Mujer": 90
-    }
-};
-
-// Procesar datos para el gráfico
-var labels = Object.keys(data);
-var datasets = [];
-for (var key in data[labels[0]]) {
-    var dataset = {
-        label: key,
-        data: []
-    };
-    for (var i = 0; i < labels.length; i++) {
-        dataset.data.push(data[labels[i]][key]);
-    }
-    datasets.push(dataset);
-}
-
-// Crear gráfico
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: labels,
-        datasets: datasets
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
-
 // Obtener elementos del DOM
 var homeDiv = document.querySelector('.home');
-var cardDiv = document.querySelector('.card');
+var cardDiv = document.querySelector('.estadisticas');
 var infoDiv = document.querySelector('.info');
 var inicioBtn = document.querySelector('.header .btn:nth-child(1)');
 var estadisticasBtn = document.querySelector('.header .btn:nth-child(2)');

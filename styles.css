@@ -29,3 +29,15 @@
 .home p{
     text-align: justify;
 }
+.card-body button{
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+}
+.card-body button:hover{
+    margin-top: 10px;
+    background-color: rgb(73, 255, 134);
+    color: rgb(44, 44, 44);
+}
+.card{
+    margin-left: 10px;
+}
