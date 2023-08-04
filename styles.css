@@ -21,6 +21,11 @@
     background-color: rgb(101, 224, 255);
     color: #ffffff;
 }
+/* Estilos para los botones cuando están en su estado "activo" o "presionado" */
+.header .toggle-button.active {
+    background-color: rgb(101, 224, 255); /* Cambia este valor al color que deseas cuando el botón esté activo */
+    color: #ffffff; /* Cambia este valor al color del texto que deseas cuando el botón esté activo */
+  }
 .body{
     margin-left: 40px;
     margin-right: 40px;
@@ -38,6 +43,25 @@
     background-color: rgb(73, 255, 134);
     color: rgb(44, 44, 44);
 }
+/* Estilos para los botones cuando están en su estado "activo" o "presionado" */
+.card-body .toggle-button.active {
+    background-color: rgb(73, 255, 134); /* Cambia este valor al color que deseas cuando el botón esté activo */
+    color: rgb(44, 44, 44); /* Cambia este valor al color del texto que deseas cuando el botón esté activo */
+}
 .card{
     margin-left: 10px;
+}
+
+#opciones button{
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+}
+#opciones button:hover{
+    margin-top: 10px;
+    background-color: rgb(255, 172, 94);
+    color: rgb(44, 44, 44);
+}
+#opciones .toggle-button.active {
+    background-color: rgb(255, 172, 94); /* Cambia este valor al color que deseas cuando el botón esté activo */
+    color: rgb(44, 44, 44); /* Cambia este valor al color del texto que deseas cuando el botón esté activo */
 }
