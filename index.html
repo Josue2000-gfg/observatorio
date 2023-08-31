@@ -81,7 +81,10 @@
             
                 <div class="card" style="width: 18rem; text-align: center;">
                     <div class="card-body">
-                        <h5 class="card-title">Impacto</h5>
+                        <div class="impacto">
+                            <h5>Impacto</h5>
+                            <p id="resultadoImpacto">Selecciona botones para ver el impacto</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,20 +104,6 @@
     <script>
         $(document).ready(function() {
             $('.header .toggle-button').click(function() {
-                // Desactivar todos los botones
-                $('.toggle-button').removeClass('active');
-                
-                // Activar solo el botón actual que fue presionado
-                $(this).addClass('active');
-            });
-            $('#acciones .toggle-button').click(function() {
-                // Desactivar todos los botones
-                $('.toggle-button').removeClass('active');
-                
-                // Activar solo el botón actual que fue presionado
-                $(this).addClass('active');
-            });
-            $('#opciones .toggle-button').click(function() {
                 // Desactivar todos los botones
                 $('.toggle-button').removeClass('active');
                 
