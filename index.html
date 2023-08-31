@@ -51,7 +51,7 @@
         <div class="estadisticas">
             <div class="row" style="justify-content: center;">
                 <div class="card" style="width: 18rem; text-align: center;">
-                    <div class="card-body">
+                    <div class="card-body" id="acciones">
                         <h5 class="card-title">Acciones estratégicas</h5>
                         <button type="button" class="btn btn-default col-sm-12 toggle-button">Servicios de salud</button>
                         <button type="button" class="btn btn-default col-sm-12 toggle-button">Financiamiento</button>
@@ -73,7 +73,7 @@
                                 <h6>Resultados intermedios</h6>
                                 <button type="button" class="btn btn-default col-sm-12 toggle-button" data-toggle="button">Barrera de acceso</button>
                                 <button type="button" class="btn btn-default col-sm-12 toggle-button" data-toggle="button">Coordinación multisectorial</button>
-                                <button type="button" class="btn btn-default col-sm-12 toggle-button" data-toggle="button"">Rectoria y gobernanza</button>
+                                <button type="button" class="btn btn-default col-sm-12 toggle-button" data-toggle="button">Rectoria y gobernanza</button>
                             </div>
                         </div>
                     </div>
@@ -107,14 +107,21 @@
                 // Activar solo el botón actual que fue presionado
                 $(this).addClass('active');
             });
+            $('#acciones .toggle-button').click(function() {
+                // Desactivar todos los botones
+                $('.toggle-button').removeClass('active');
+                
+                // Activar solo el botón actual que fue presionado
+                $(this).addClass('active');
             });
-    </script>
-    <script>// Obtener todos los botones con la clase "toggle-button"
-        $(document).ready(function() {
-        $('.body .toggle-button').click(function() {
-            $(this).toggleClass('active');
+            $('#opciones .toggle-button').click(function() {
+                // Desactivar todos los botones
+                $('.toggle-button').removeClass('active');
+                
+                // Activar solo el botón actual que fue presionado
+                $(this).addClass('active');
+            });
         });
-        });  
     </script>
 </body>
 </html>

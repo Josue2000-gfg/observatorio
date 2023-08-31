@@ -30,3 +30,4 @@ nosotrosBtn.addEventListener('click', function() {
     cardDiv.style.display = 'none';
     infoDiv.style.display = 'block';
 });
+
